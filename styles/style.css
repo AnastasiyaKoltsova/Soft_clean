@@ -1,3 +1,20 @@
 body {
     font-size: 14px;
 }
+
+@font-face {
+	font-family: 'Mont-Heavy';
+	src: url('./assets/fonts/Mont-Heavy/Mont-Heavy.eot');
+	src: local('☺'), url('fonts/Mont-Heavy.woff') format('woff'), url('fonts/Mont-Heavy.ttf') format('truetype'), url('fonts/Mont-Heavy.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mont-SemiBold';
+	src: url('./assets/fonts/Mont-SemiBold/Mont-SemiBold.eot');
+	src: local('☺'), url('fonts/Mont-SemiBold.woff') format('woff'), url('fonts/Mont-SemiBold.ttf') format('truetype'), url('fonts/Mont-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
