@@ -603,6 +603,7 @@ font-style: normal;
     justify-content: space-between;
     margin: 0 auto;
     padding-bottom: 30px;
+    position: relative;
 }
 .adv {
     position: relative;
@@ -618,7 +619,8 @@ background-color: #43AAFF;
 .adv__payment{
 background-color: #FFC24D;
 }
-.adv-img{
+.adv-img,
+.container-bonus__image-right{
 float:right; 
 margin: 0px 0px 0px 15px;
 border-radius: 0 0 30px 0 ;
@@ -668,7 +670,7 @@ border-radius: 100px;
 height: 100px;
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+flex-direction: row;
 padding-top: 50px;
 }
 .container-form h2{
@@ -688,14 +690,17 @@ font-size: 22px;
 color: #959A9D;
 text-align: center;
 padding-top:  20px;
+padding-bottom: 20px;
 }
-.container-form form{
+.container-form__form{
+position: relative;
 height: 520px;
 background-image: url(../assets/images/bg_phone.png);
 background-color: #43AAFF;
+background-size: cover;
 box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 border-radius: 30px;
-padding: 80px;
+padding-top: 80px;
 }
 .block__phone-request{
 width: 45%;
@@ -748,7 +753,6 @@ align-items: center;
 width: 375px;
 height: 70px;
 background: #FFC24D;
-box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.1);
 border-radius: 100px; 
 cursor: pointer;
 text-transform: uppercase; 
@@ -759,10 +763,14 @@ color: #FFFFFF;
 background: #43AAFF;}
 
 .container-bonus{
-width: 1%;
+width: 35%;
+height: 125px;
 float: right;
 }
 .container-bonus__bonus-info{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 width: 409px;
 height: 125px;
 background: #FFFFFF;
@@ -786,4 +794,3 @@ font-weight: 600;
 font-size: 11px;
 margin-top: 10px;
 }
-
