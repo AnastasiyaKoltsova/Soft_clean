@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Mont-Regular";
+	src: url("./styles/font/Mont-Regular.ttf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Mont-SemiBold";
+	src: url("./styles/font/Mont-SemiBold.ttf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Mont-Bold";
+	src: url("./styles/font/Mont-Bold.ttf");
+	font-weight: 800;
+	font-style: normal;
+}
+
+

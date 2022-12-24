@@ -5,13 +5,402 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    crossorigin="anonymous"
+  />
+  
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shot icon" href="./assets/images/bucket.png" type="png">
+    <link rel="stylesheet" href="./styles/font.css" />
     <title>Soft Clean</title>
 </head>
 
 <body>
+    <section class="competitors">
+        <div class="competitors__text text-center">
+          <p class="competitors__text_title text-title">А вы знали?</p>
+          <p class="competitors__text_main text-main">
+            70% клининговых компаний в СПБ, зачастую
+            <span
+              >подвергают <br />
+              своих клиентов рискам и дискомфорту.</span
+            >
+          </p>
+          <p class="competitors__text_fact">
+            И вот некоторые факты, с которыми вы можете столкнуться, <br />
+            обращаясь в другие компании:
+          </p>
+        </div>
+  
+        <div class="competitors-cards">
+          <div class="card col black-box">
+            <div>
+              <img
+                src="./assets/images/касса.png"
+                alt="Касса"
+                class="black-box__cash"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Чёрная касса</h5>
+              <p class="card-text">
+                Клининговые компании завлекают клиентов обманчиво низкой
+                стоимостью. Менеджеры умалчивают стоимость доп. работ, а на
+                объекте, когда клиенту сложно отказать, насчитывают стоимость выше
+                заявленной.
+              </p>
+            </div>
+          </div>
+  
+          <div class="card col damage">
+            <div class="black-box__img">
+              <img
+                src="./assets/images/сковорода.png"
+                alt="Сковорода"
+                class="damage__pan"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Порча имущества</h5>
+              <p class="card-text">
+                Неправильно подобранные клинерами моющие средства могут повредить
+                поверхность мебели и бытовых приборов. Неправильная влажная уборка
+                может испортить новый паркет или повредить проводку.
+              </p>
+            </div>
+          </div>
+  
+          <div class="card col job">
+            <div class="black-box__img">
+              <img
+                src="./assets/images/Веник.png"
+                alt="Веник"
+                class="job__broom"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Имитация деятельности</h5>
+              <p class="card-text">
+                Клинеры часто выполняют свою работу недобросовестно. Не убирают
+                труднодоступные места и экономят моющее средство. В результате Вы
+                получаете некачественную уборку и испорченное настроение.
+              </p>
+            </div>
+          </div>
+  
+          <div class="staff">
+            <div class="staff-card">
+              <div class="staff__img">
+                <img
+                  src="./assets/images/Часы.png"
+                  alt="Часы"
+                  class="staff__watch"
+                />
+              </div>
+              <div class="staff__text">
+                <h5 class="staff__text_title">Безответственность персонала</h5>
+                <p class="staff__text_main">
+                  Клинеры приезжают раньше/позже назначенного времени, что
+                  доставляет дискомфорт хозяину. Не соблюдают инструктаж владельца
+                  квартиры и нарушают бытовой порядок.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col warning">
+            <div class="card-body">
+              <h5 class="card-title warning__text warning__text_title">
+                Друзья, Будьте внимательны!
+              </h5>
+              <p class="card-text warning__text warning__text_main">
+                При выборе клинговой компании и заказе уборки, внимательно читайте
+                договор на оказание услуг
+              </p>
+              <a class="warning__link warning__text" href="">
+                Посмотреть договор
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="professional">
+        <div class="professional__text text-center">
+          <p class="professional__text_main text-main">
+            Наша работа построена <br />
+            <span>на профессиолизме и честности</span>
+          </p>
+          <p class="professional__text_fact text-title">
+            Обращаясь за помощью к нам, вы можете быть <br />
+            спокойны за качество и ваш комфорт
+          </p>
+        </div>
+  
+        <div class="professional-cards">
+          <div class="card col cooperation">
+            <div class="cooperation__img">
+              <img src="./assets/images/блокнот.png" alt="Блокнот" class="" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Честное сотрудничество</h5>
+              <p class="card-text">
+                Заранее рассчитаем стоимость услуг, и закрепляем наше
+                сотрудничество договором. Оплата исключительно по факту
+                выполнения. Вы проверяете результат и платите тогда, когда он вас
+                удовлетворяет.
+              </p>
+            </div>
+          </div>
+  
+          <div class="card col detergents">
+            <div class="detergents__img">
+              <img
+                src="./assets/images/Моющие_средства.png"
+                alt="Моющие средства"
+                class=""
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Бережные моющие</h5>
+              <p class="card-text">
+                Внимательно подходим к выбору моющих средств. Знаем какие средства
+                использовать в конкретных случаях, чтобы не повредить мебель и
+                сохранить прежний блеск поверхностей.
+              </p>
+            </div>
+          </div>
+  
+          <div class="card col quality">
+            <div class="quality__img">
+              <img src="./assets/images/качество.png" alt="Качество" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Гарантия качества</h5>
+              <p class="card-text">
+                На объектах работают от 2 и более опытных клинеров. Комплексная
+                уборка делается в соответствии с нормами качества. Блеск от
+                потолка до пола!
+              </p>
+            </div>
+          </div>
+  
+          <div class="request">
+            <div>
+              <img
+                src="./assets/images/фон.png"
+                alt="девушка"
+                class="request__girl"
+              />
+              <img
+                src="./assets/images/фон1.png"
+                alt="синий фон"
+                class="request__background"
+              />
+              <p class="request__title">
+                Оставьте заявку на консультацию <br />
+                и расчёт стоимости БЕСПЛАТНО
+              </p>
+              <form class="request__form">
+                <input
+                  type="text"
+                  class="request__phone text-center"
+                  placeholder="Введите ваш телефон"
+                />
+                <button class="button">Жду звонка</button>
+              </form>
+              <div class="request__politics">
+                <img src="./assets/images/Vector.png" alt="галочка" />
+                <p>
+                  Нажимая на кнопку вы соглашаетесь с условиями
+                  <a href="">Политики конфиденциальности</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="cleaning">
+        <div class="cleaning__text text-center">
+          <p class="cleaning__text_main text-title">
+            <span>6 видов уборки</span> под любую Вашу задачу
+          </p>
+          <p class="cleaning__text_fact text-main">
+            Наши услуги подойдут для семейных пар с детьми, <br />
+            владельцев животных, аллергиков, арендодателей
+          </p>
+        </div>
+  
+        <div class="cleaning-cards">
+          <div class="card col general text-center">
+            <div>
+              <img
+                src="./assets/images/ген_уборка.png"
+                alt="Генеральная уборка"
+                class="cleaning__img"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title cleaning__card-title">Генеральная уборка</h5>
+              <p class="card-text">
+                Комплексная уборка с удалением <br />
+                пыли, жира и грязи
+              </p>
+              <p class="card-text"><span>Время работы: </span> 5-7 часов</p>
+              <p class="card-text card-text__size text-center">
+                <span>от 150 Р/м2</span>
+              </p>
+  
+              <a href="#" class="btn btn-primary">РАССЧИТАТЬ СТОИМОСТЬ</a>
+              <div class="card-text__link">
+                <a href="#" class="card-link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col general text-center">
+            <div>
+              <img
+                src="./assets/images/после_ремонта.png"
+                alt="Уборка после ремонта"
+                class="cleaning__img"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title cleaning__card-title">
+                Уборка после ремонта
+              </h5>
+              <p class="card-text">
+                Подготовим ваше помещение <br />
+                к комфортному проживанию
+              </p>
+              <p class="card-text"><span>Время работы: </span> 5-7 часов</p>
+              <p class="card-text card-text__size text-center">
+                <span>от 150 Р/м2</span>
+              </p>
+  
+              <a href="#" class="btn btn-primary">РАССЧИТАТЬ СТОИМОСТЬ</a>
+              <div class="card-text__link">
+                <a href="#" class="card-link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col general text-center">
+            <div>
+              <img
+                src="./assets/images/ген_уборка.png"
+                alt="Поддерживающая уборка"
+                class="cleaning__img"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title cleaning__card-title">
+                Поддерживающая уборка
+              </h5>
+              <p class="card-text">
+                Уборка, для поддержания <br />
+                чистоты в квартире
+              </p>
+              <p class="card-text"><span>Время работы: </span> 2-4 часов</p>
+              <p class="card-text card-text__size text-center">
+                <span>от 80 Р/м2</span>
+              </p>
+  
+              <a href="#" class="btn btn-primary">РАССЧИТАТЬ СТОИМОСТЬ</a>
+              <div class="card-text__link">
+                <a href="#" class="card-link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col general text-center">
+            <div>
+              <img
+                src="./assets/images/окна.png"
+                alt="Мойка окон и понорам"
+                class="cleaning__img"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title cleaning__card-title">
+                Мойка окон и понорам
+              </h5>
+              <p class="card-text">
+                За чистыми окнами — грязь <br />
+                не живёт!
+              </p>
+              <p class="card-text"><span>Время работы: </span> 2-4 часов</p>
+              <p class="card-text card-text__size text-center">
+                <span>от 500 Р/м2</span>
+              </p>
+  
+              <a href="#" class="btn btn-primary">РАССЧИТАТЬ СТОИМОСТЬ</a>
+              <div class="card-text__link">
+                <a href="#" class="card-link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col general text-center">
+            <div>
+              <img
+                src="./assets/images/покрытие.png"
+                alt="Защитное покрытие"
+                class="cleaning__img"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title cleaning__card-title">Защитное покрытие</h5>
+              <p class="card-text">
+                Глубокая очистка и нанесение <br />
+                защитного слоя полироли
+              </p>
+              <p class="card-text"><span>Время работы: </span> 8-12 часов</p>
+              <p class="card-text card-text__size text-center">
+                <span>от 100 Р/м2</span>
+              </p>
+  
+              <a href="#" class="btn btn-primary">РАССЧИТАТЬ СТОИМОСТЬ</a>
+              <div class="card-text__link">
+                <a href="#" class="card-link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col general text-center">
+            <div>
+              <img
+                src="./assets/images/экспресс.png"
+                alt="Экспресс уборка"
+                class="cleaning__img"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title cleaning__card-title">Экспресс уборка</h5>
+              <p class="card-text">
+                Срочная уборка с выездом <br />
+                в течении часа
+              </p>
+              <p class="card-text"><span>Время работы: </span> 5-7 часов</p>
+              <p class="card-text card-text__size text-center">
+                <span>от 130 Р/м2</span>
+              </p>
+  
+              <a href="#" class="btn btn-primary">РАССЧИТАТЬ СТОИМОСТЬ</a>
+              <div class="card-text__link">
+                <a href="#" class="card-link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 </body>
 
