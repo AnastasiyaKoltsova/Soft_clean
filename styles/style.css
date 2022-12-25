@@ -668,9 +668,7 @@ border-radius: 100px;
 }
 .container-form{
 height: 100px;
-display: flex;
 flex-wrap: wrap;
-flex-direction: row;
 padding-top: 50px;
 }
 .container-form h2{
@@ -693,6 +691,7 @@ padding-top:  20px;
 padding-bottom: 20px;
 }
 .container-form__form{
+width: 80vw;
 position: relative;
 height: 520px;
 background-image: url(../assets/images/bg_phone.png);
@@ -701,15 +700,18 @@ background-size: cover;
 box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 border-radius: 30px;
 padding-top: 80px;
+display: flex;
+flex-direction: row;
 }
 .block__phone-request{
+position: relative;
 width: 50%;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 }
 
-.block__phone-request a{
+.form__title__icon-links a{
 display: inline-block;
 margin-left: 20px;
 width: 183px;
@@ -739,6 +741,7 @@ font-weight: 600;
 font-size: 16px;
 color: #FFFFFF;
 text-align: left; 
+margin-left: 50px;
 }
 
 .form__input {
@@ -749,7 +752,7 @@ border-radius: 100px;
 margin: 20px;
 padding-left: 20px;
 }
-.btn__submit {
+.form__btn__submit {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -762,22 +765,21 @@ text-transform: uppercase;
 margin-left: 20px;
 color: #FFFFFF; 
 }
-.btn:hover{
+.form__btn__submit:hover{
 background: #43AAFF;}
 
-.container-bonus{
-width: 35%;
-height: 125px;
-}
 .container-bonus__bonus-info{
+    position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-width: 409px;
+align-self: flex-end;
+width: 500px;
 height: 125px;
 background: #FFFFFF;
 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 border-radius: 30px;
+margin-bottom: 50px;
 }
 .container-bonus__bonus-info h4 {
 color: #43AAFF;
@@ -796,4 +798,10 @@ color: #FFFFFF;
 font-weight: 600;
 font-size: 11px;
 margin-top: 10px;
+}
+.checkbox-text a{
+    color: #FFFFFF;  
+}
+.blank{
+    width: 35%;
 }
