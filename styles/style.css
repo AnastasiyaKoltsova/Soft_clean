@@ -703,9 +703,10 @@ border-radius: 30px;
 padding-top: 80px;
 }
 .block__phone-request{
-width: 45%;
+width: 50%;
 display: flex;
-flex-direction: column;
+flex-direction: row;
+justify-content: flex-start;
 }
 
 .block__phone-request a{
@@ -723,20 +724,21 @@ height: 27px;
 margin-top: 20px;
 }
 .form__title{
-width: 50%;
+width: 100%;
+margin-left: 50px;
 }
 .form__title h3{
 font-weight: 800;
 font-size: 24px;
 line-height: 150%;
 color: #FFFFFF;
-text-align: center;
+text-align: left;
 }
 .form__title p{
 font-weight: 600;
 font-size: 16px;
 color: #FFFFFF;
-text-align: center; 
+text-align: left; 
 }
 
 .form__input {
@@ -766,7 +768,6 @@ background: #43AAFF;}
 .container-bonus{
 width: 35%;
 height: 125px;
-float: right;
 }
 .container-bonus__bonus-info{
 display: flex;
@@ -788,6 +789,7 @@ font-family: 'Mont';
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
+margin-left: 20px;
 }
 .checkbox-text{
 color: #FFFFFF;
