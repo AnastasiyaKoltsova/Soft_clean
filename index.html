@@ -69,67 +69,48 @@
                         src="./assets/images/table.png"></div>
             </div>
         </section>
-        <section class="container">
-            <div class="adv">
-                <div class="adv__tools adv__box">
-                    <p class="adv__tools__text">Немецкое и американское оборудование</p><img
-                        class="adv-img adv__tools__img" src="./assets/images/vaccumcleaner.png" alt="пылесос">
-                </div>
-                <div class="adv__soap adv__box">
-                    <p class="adv__soap__text">Гипоаллергенные безопасные моющие</p><img class="adv-img"
-                        src="./assets/images/hypoallergenic.png" alt="гипоаллергенно знак_спрей картинка">
-                </div>
-                <div class="adv__sanity adv__box">
-                    <p class="adv__sanity__text">Соблюдаем санитарные нормы</p><img class="adv-img"
-                        src="./assets/images/gloves.png" alt="перчатки санитарные">
-                </div>
-                <div class="adv__payment adv__box">
-                    <p class="adv__payment__text">Оплата по результату после уборки</p><img class="adv-img"
-                        src="./assets/images/Check1.png" alt="синяя галочка выполнено">
-                </div>
-            </div>
-        </section>
-        <section class="container">
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Рассчитать стоимость</a></li>
-                    <li><a href="#">Почему мы</a></li>
-                    <li><a href="#">Как мы делаем уборку</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Акции</a></li>
-                </ul>
-            </nav>
-        </section>
+    </main>
+    <section class="container__adv">
+        <div class="adv adv__tools"><img class="adv-img" src="../assets/images/vaccumcleaner.png" alt="пылесос"><p>Немецкое <br>и американское <br>оборудование</p></div>
+        <div class="adv adv__soap"><p>Гипоаллергенные <br>безопасные <br>моющие</p><img class="adv-img" src="../assets/images/hypoallergenic.png" alt="гипоаллергенно знак_спрей картинка"></div>
+        <div class="adv adv__sanity"><p>Соблюдаем <br>санитарные <br>нормы</p><img class="adv-img" src="../assets/images/gloves.png" alt="перчатки санитарные"></div>
+        <div class="adv adv__payment"><p>Оплата <br>по результату <br>после уборки</p><img class="adv-img" src="../assets/images/Check1.png" alt="синяя галочка выполнено"></div>
+    </section>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#type-of-services">Услуги</a></li>
+                <li><a href="#cost-calculation">Рассчитать стоимость</a></li>
+                <li><a href="#whychooseus">Почему мы</a></li>
+                <li><a href="">Как мы делаем уборку</a> </li>
+                <li><a href="">Отзывы</a> </li>
+                <li><a href="#bonuses-3plus1">Акции</a></li>
+            </ul>
+        </nav><a name="cost-calculation"></a>
         <section class="container-form">
-            <h2><a href="">Калькулятор стоимости уборки</a>c точностью до 98%</h2>
+            <h2><a href="">Калькулятор стоимости уборки</a> c точностью до 98%</h2>
             <p>Это бесплатно и ни к чему не обязывает</p>
-            <div class="container-form form">
+            <div class="container-form__form">
                 <form class="block__phone-request">
-                    <div class="form__title">
-                        <h3>Отлично ! Ваши ответы получены,
-                            <br>менеджер уже приступает к расчёту
-                        </h3>
-                        <p>Где вам удобно получить расчет?</p><a href="https://web.whatsapp.com/"><img
-                                class="container-form__icon" src="../assets/images/telegram.png"
-                                alt="кнопка связи телеграм значок"></a><a href="https://web.whatsapp.com/"><img
-                                class="container-form__icon" src="../assets/images/whatsapp.png"
-                                alt="кнопка связи вотсапп значок"></a><label for="telNo"></label><input
-                            class="form__input" name="telNo" type="tel" placeholder="Введите ваш телефон"
-                            required><button class="btn btn__submit">Получить расчеты и бонусы</button><input
-                            type="checkbox" required="" name="subscribe" value="newsletter"><label for="subscribeNews"
-                            class="checkbox-text"><br>Нажимая на кнопку вы соглашаетесь<br>с
-                            условиями Политики конфиденциальности конфиденциальности</a></label>
-                </form>
-                <div class="container-bonus">
-                    <div class="container-bonus__bonus-info">
-                        <h4>Ваши бонусы:</h4>
-                        <ul>
-                            <li>Скидка 10% на первый заказ Книга «Магическая уборка</li>
-                            <li>Книга «Магическая уборка <br>(в бумажном переплёте) </li>
-                        </ul>
-                    </div>
-                </div>
+                <div class="form__title"><h3>Отлично! Ваши ответы получены,<br> менеджер уже приступает к расчёту</h3><p>Где вам удобно получить расчет?</p>
+                    <div class="form__title__icon-links">
+<a href="https://web.whatsapp.com/"><img class="container-form__icon" src="../assets/images/telegram.png" alt="кнопка связи телеграм значок"></a>
+<a href="https://web.whatsapp.com/"><img class="container-form__icon" src="../assets/images/whatsapp.png" alt="кнопка связи вотсапп значок"></a></div>
+<label for="telNo">
+<input class="form__input" name="telNo" type="tel" placeholder="Введите ваш телефон" required></label>
+<button class="form__btn__submit">Получить расчеты и бонусы</button>
+<input type="checkbox" required="" name="subscribe" value="newsletter">
+<label for="subscribeNews" class="checkbox-text_white"><br>Нажимая на кнопку вы соглашаетесь<br> 
+    с условиями <a href="#">Политики конфиденциальности</a>
+    </label></div>
+</form>
+<div class="container-bonus__bonus-info"><h4>Ваши бонусы:</h4>
+<ul>
+    <li>Скидка 10% на первый заказ</li>
+    <li>Книга «Магическая уборка
+        <br>(в бумажном переплёте)
+    </li>
+</ul></div>
+<div class="blank"></div>
             </div>
         </section>
         <section>
@@ -185,7 +166,7 @@
                         class="rectangles__item1_text2">200 &#8381;
                     </span></div>
             </article>
-            <article class="bonus">
+            <article class="bonus"><a name="bonuses-3plus1"></a>
                 <div class="bonus__tittle">Закажите 3 дополнительные услуги <div class="bonus__tittle_blue">и
                         получите четвёртую в подарок </div><button class="bonus__btn">Заказать уборку </button>
                 </div>
@@ -332,7 +313,7 @@
         </div>
       </section>
   
-      <section class="professional">
+      <section class="professional"><a name="whychooseus"></a>
         <div class="professional__text text-center">
           <p class="professional__text_main text-main">
             Наша работа построена <br />
@@ -416,9 +397,10 @@
         </div>
       </section>
   
-      <section class="cleaning">
+      <section class="cleaning"><a name="type-of-services"></a>
         <div class="cleaning__text text-center">
-          <p class="cleaning__text_main text-title">
+
+
             <span>6 видов уборки</span> под любую Вашу задачу
           </p>
           <p class="cleaning__text_fact text-main">
@@ -602,8 +584,7 @@
         <img
           src="./assets/images/sret6.svg"
           alt="certificate"
-          class="certificates__img"
-        />
+          class="certificates__img">
         <img
           src="./assets/images/sret1.svg"
           alt="certificate"
