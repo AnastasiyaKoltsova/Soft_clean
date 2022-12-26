@@ -1197,9 +1197,13 @@ box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     height: 487px;
 }
 
+.formpart__content img {
+    width: 25%;
+}
+
 .formpart__title {
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 7%;
     /* font-family: 'Mont'; */
     font-weight: 800;
     font-size: 1.5rem;
@@ -1211,7 +1215,7 @@ box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     width: 25%;
     height: 70px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 7%;
     background-color: #FFC24D;;
     border-style: none;
     border-radius: 100px;
@@ -1225,7 +1229,7 @@ box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 .formpart__text {
     /* font-family: 'Mont'; */
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 7%;
     font-weight: 600;
     font-size: 0.9375rem;
     line-height: 140%;
@@ -1236,7 +1240,7 @@ box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     width: 12%;
     height: 70px;
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 7%;
     background-color: #FFFFFF;
     border-radius: 20px;
     border-style: none;
@@ -1256,7 +1260,7 @@ box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     display: flex;
     align-items: center;
     margin-top: 25px;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 .formpart__number {
@@ -1365,6 +1369,10 @@ section.questions .container {
     font-size: 12px;
     line-height: 140%;
     color: #4B5258;
+}
+
+.footer__options img {
+    width: 80%;
 }
 
 .footer__button {
