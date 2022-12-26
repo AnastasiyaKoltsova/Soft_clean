@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="./styles/fonts/Mont/stylesheet.css" rel="stylesheet" type="text/css" />
-    <link rel="shot icon" href="./assets/images/bucket.png" type="png">
+    <link rel="shot icon" href="./assets/images/bucket.png" type="image/png">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -16,7 +15,7 @@
     crossorigin="anonymous"
   />
     <title>Soft Clean</title>
-</head>
+  </head>
 
 <body>
     <header class="header">
@@ -593,7 +592,259 @@
         </div>
       </section>
   
+    <!-- Cetificates part -->
+    <div class="certificates">
+      <h2 class="certificates__title">Сертификаты</h2>
+      <p class="certificates__text">
+        Моющие средства от проверенных производителей
+      </p>
+      <section class="certificates__card">
+        <img
+          src="./assets/images/sret6.svg"
+          alt="certificate"
+          class="certificates__img"
+        />
+        <img
+          src="./assets/images/sret1.svg"
+          alt="certificate"
+          class="certificates__img"
+        />
+        <img
+          src="./assets/images/sert2.svg"
+          alt="certificate"
+          class="certificates__img"
+        />
+      </section>
+    </div>
 
-</body>
+    <!-- Form part -->
+    <section class="formpart">
+      <div class="formpart__content">
+        <p class="formpart__title">
+          Закажите уборку прямо <br />сейчас! Выезд персонала <br />в течении
+          часа
+        </p>
+        <input type="button" value="ЗАКАЗАТЬ УБОРКУ" class="formpart__button" />
+        <p class="formpart__text">Или свяжитесь с нами напрямую:</p>
+        <button class="formpart__telegram">
+          <img src="./assets/images/Telegram.svg" alt="Telegram" />
+        </button>
+        <button class="formpart__whatsapp">
+          <img src="./assets/images/Whatsapp.svg" alt="Whatsapp" />
+        </button>
+        <div class="formpart__contacts">
+          <p class="formpart__number">8-800-700-60-50</p>
+          <p class="formpart__schedule">Пн-Вс: 9:00 - 21:00</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Questions part -->
+    <section class="questions">
+      <h2 class="questions__title">Часто задаваемые вопросы</h2>
+      <div class="container">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header border-light" id="headingOne">
+              <h5
+                class="mb-0 d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0 questions__question">
+                  Что нужно, чтобы подготовиться к уборке?
+                </p>
+
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  <img
+                    src="./assets/images/down.svg"
+                    alt="open"
+                    class="questions__icon"
+                  />
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseOne"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordion"
+            >
+              <div class="card-body">Текст</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header border-light" id="headingTwo">
+              <h5
+                class="mb-0 d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0 questions__question">
+                  Могу ли я быть дома во время уборки?
+                </p>
+
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <img
+                    src="./assets/images/down.svg"
+                    alt="open"
+                    class="questions__icon"
+                  />
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordion"
+            >
+              <div class="card-body">Текст</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header border-light" id="headingThree">
+              <h5
+                class="mb-0 d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0 questions__question">
+                  Сколько времени длится уборка?
+                </p>
+
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <img
+                    src="./assets/images/down.svg"
+                    alt="open"
+                    class="questions__icon"
+                  />
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">Текст</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header border-light" id="headingFour">
+              <h5
+                class="mb-0 d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0 questions__question">
+                  За сколько дней до приезда клинеров необходимо сделать заказ?
+                </p>
+
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <img
+                    src="./assets/images/down.svg"
+                    alt="open"
+                    class="questions__icon"
+                  />
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordion"
+            >
+              <div class="card-body">Текст</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header border-light" id="headingFive">
+              <h5
+                class="mb-0 d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0 questions__question">
+                  Какие моющие средства вы используете?
+                </p>
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <img
+                    src="./assets/images/down.svg"
+                    alt="open"
+                    class="questions__icon"
+                  />
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseFive"
+              class="collapse"
+              aria-labelledby="headingFive"
+              data-parent="#accordion"
+            >
+              <div class="card-body">Текст</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer part -->
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./assets/images/logo1.svg" alt="logo" class="footer__img" />
+        <div class="footer__title">
+          <p class="footer__title_big">Soft Clean</p>
+          <p class="footer__title_small">Бережная уборка <br />помещений СПБ</p>
+        </div>
+      </div>
+
+      <div class="footer__options">Реквизиты</div>
+      <div class="footer__options">Политика конфиденциальности</div>
+      <div class="footer__options">
+        Быстрая связь:
+        <button class="footer__button">
+          <img src="./assets/images/Telegram.svg" alt="Telegram" />
+        </button>
+        <button class="footer__button">
+          <img src="./assets/images/Whatsapp.svg" alt="Whatsapp" />
+        </button>
+      </div>
+      <div class="footer__options">Разработка сайта: Halekov Design</div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
