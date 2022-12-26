@@ -705,7 +705,7 @@ flex-direction: row;
 }
 .block__phone-request{
 position: relative;
-width: 50%;
+width: 45%;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -769,7 +769,7 @@ color: #FFFFFF;
 background: #43AAFF;}
 
 .container-bonus__bonus-info{
-    position: relative;
+position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
