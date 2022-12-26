@@ -35,101 +35,102 @@ body {
 
 .certificates__img {
 margin-left: 30px;
-width: 270px;
-height: 380px;
+width: 17%;
 border-radius: 30px;
 -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
-.form {
+.formpart {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin: 90px auto 0 auto;
+    width: 70vw;
 }
 
-.form__content {
+
+.formpart__content {
     background-image: url(../assets/images/Mask_Group.png), url(../assets/images/background-image.png);
     width: 1024px;
     height: 487px;
 }
 
-.form__title {
-    margin-top: 40px;
-    margin-left: 70px;
+.formpart__title {
+    margin-top: 5%;
+    margin-left: 10%;
     /* font-family: 'Mont'; */
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 140%;
     color: white;
-    }
+}
 
-.form__button {
-    width: 275px;
+.formpart__button {
+    width: 25%;
     height: 70px;
-    margin-top: 20px;
-    margin-left: 60px;
+    margin-top: 2%;
+    margin-left: 10%;
     background-color: #FFC24D;;
     border-style: none;
     border-radius: 100px;
     /* font-family: 'Mont'; */
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 150%;
     color: white;
 }
 
-.form__text {
+.formpart__text {
     /* font-family: 'Mont'; */
-    margin-top: 20px;
-    margin-left: 70px;
+    margin-top: 2%;
+    margin-left: 10%;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 140%;
     color: white;
 }
 
-.form__telegram {
-    width: 125px;
+.formpart__telegram {
+    width: 12%;
     height: 70px;
-    margin-top: 5px;
-    margin-left: 60px;
+    margin-top: 1%;
+    margin-left: 10%;
     background-color: #FFFFFF;
     border-radius: 20px;
     border-style: none;
 }
 
-.form__whatsapp {
-    width: 125px;
+.formpart__whatsapp {
+    width: 12%;
     height: 70px;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
     background-color: #FFFFFF;
     border-radius: 20px;
     border-style: none;
 }
 
-.form__contacts {
+.formpart__contacts {
     display: flex;
     align-items: center;
     margin-top: 25px;
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
-.form__number {
+.formpart__number {
     font-family: 'Mont';
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 100%;
     color: white;
     }
 
-.form__schedule {
+.formpart__schedule {
     /* font-family: 'Mont'; */
     margin-left: 25px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 100%;
     color: white;
 }
@@ -178,12 +179,55 @@ section.questions .container {
 }
 
 .footer {
-    margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    width: 80vw;
 }
 
 .footer__logo {
+    display: flex;
+}
+
+.footer__img {
     width: 48px;
     height: 62px;
+    margin-right: 0px;
+}
+
+.footer__title {
+    margin-left: 0px;
+}
+
+.footer__title_big {
+    margin: 7px 0px 3px 8px;
+    /* font-family: 'Mont'; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #43AAFF;
+}
+
+.footer__title_small {
+    /* font-family: 'Mont'; */
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 140%;
+    color: #959A9D;
+}
+
+.footer__options {
+    /* font-family: 'Mont'; */
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #4B5258;
+}
+
+.footer__button {
+    width: 45px;
+    border-style: none;
+    background-color: #FFFFFF;
 }
