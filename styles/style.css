@@ -1334,7 +1334,7 @@ span {
     height: 487px;
 }
 
-.formpart__content img {
+.formpart__content button img {
     width: 25%;
 }
 
@@ -1505,6 +1505,10 @@ section.questions .container {
     font-weight: 600;
     font-size: 12px;
     line-height: 140%;
+    color: #4B5258;
+}
+
+.footer__options a {
     color: #4B5258;
 }
 
