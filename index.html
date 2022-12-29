@@ -96,33 +96,27 @@
         </nav>
         <section class="calculator">
             <div class="container">
-                <h2 class="calculator__title"><a class="calculator__link" href="#">Калькулятор стоимости уборки </a>c
-                    точностью до 98%</h2>
+                <h2 class="calculator__title"><a class="calculator__link" href="#">Калькулятор стоимости уборки
+                    </a>c точностью до 98%</h2>
                 <p class="calculator__description">Это бесплатно и ни к чему не обязывает!</p>
                 <div class="calculator__form">
-                    <form class="calculator__form__left">
+                    <div class="calculator__form__left">
                         <p class="calculator__form__left__title">Отлично! Ваши ответы получены,
                             менеджер уже приступает к расчёту</p>
                         <p class="calculator__form__left__description">Где вам удобнее получить расчёт?</p>
-                        <div class="calculator__form__left__media">
-                            <a class="calculator__form__left__media__box" href="#">
-                                <img class="calculator__form__left__media__img" src="./assets/images/telegram.png"
-                                    alt="кнопка связи телеграм"></a>
-                            <a class="calculator__form__left__media__box" href="#">
-                                <img class="calculator__form__left__media__img" src="./assets/images/whatsup.png"
-                                    alt="кнопка связи вотсапп"></a>
+                        <div class="calculator__form__left__media"><a class="calculator__form__left__media__box"
+                                href="#"><img class="calculator__form__left__media__img"
+                                    src="./assets/images/telegram.png" alt="кнопка связи телеграм"></a><a
+                                class="calculator__form__left__media__box" href="#"><img
+                                    class="calculator__form__left__media__img" src="./assets/images/whatsup.png"
+                                    alt="кнопка связи вотсапп"></a></div><input class="calculator__form__left__tel"
+                            type="tel" placeholder="Введите ваш телефон" required><button
+                            class="calculator__form__left__btn">Получить расчёт и бонусы</button>
+                        <div class="calculator__form__checkbox"><input type="checkbox" value="newsletter">
+                            <p class="checkbox-text_white">Нажимая на кнопку вы соглашаетесь с условиями <a
+                                    href="#">Политики конфиденциальности</a></p>
                         </div>
-                        <input class="calculator__form__left__tel" type="tel" placeholder="Введите ваш телефон"
-                            required>
-                        <button class="calculator__form__left__btn">Получить
-                            расчёт и бонусы</button>
-                        <div class="calculator__form__checkbox">
-                            <input type="checkbox" value="newsletter" required="">
-                            <p class="checkbox-text_white">Нажимая на кнопку
-                                вы соглашаетесь с условиями <a href="#">Политики конфиденциальности</a></p>
-                        </div>
-                    </form>
-
+                    </div>
                     <div class="calculator__form__right">
                         <div class="calculator__bonus">
                             <div class="calculator__bonus__text">
@@ -132,72 +126,82 @@
                                     <li>Книга «Магическая уборка»</li>
                                 </ul>
                                 <p class="calculator__bonus__description">(в бумажном переплёте)</p>
-                            </div>
-                            <img class="calculator__bonus__img" src="./assets/images/book_coupon.png">
+                            </div><img class="calculator__bonus__img" src="./assets/images/book_coupon.png">
                         </div>
                     </div>
                 </div>
-            </div>
+        </section>
 
-        </section>
+        <!-- БЛОК дополнительные услуги -->
         <section>
-            <h2 class="ad
-d-services"><button class="add-services__btn">Не нашли нужный вариант? </button><span
-                    class="add-services__title1">Посмотрите дополнительные услуги</span><span
-                    class="add-services__title2">Устраним любой каприз в уборке</span></h2>
+
+            <button class="add-services__btn"> Не нашли нужный вариант?</button>
+            <h2 class="add-services__title">Посмотрите дополнительные услуги</h2>
+            <h3 class="add-services__subtitle">Устраним любой каприз в уборке</h3>
+
             <article class="rectangles">
-                <div class="rectangles__item1"><img class="rectangles__item1_img1"
-                        src="./assets/images/holodilnik_myte.png" alt="clean_holodilnik"><span
-                        class="rectangles__item1_text1">Мойка холодильника</span><img class="rectangles__item1_img2"
-                        src="./assets/images/line.png" alt="line"><span class="rectangles__item1_text2">600 &#8381;
-                    </span></div>
-                <div class="rectangles__item2"><img class="rectangles__item1_img1"
-                        src="./assets/images/microwave_myte.png" alt="clean_microwave"><span
-                        class="rectangles__item1_text1">Мойка микроволновки</span><img class="rectangles__item1_img2"
-                        src="./assets/images/line.png" alt="line"><span class="rectangles__item1_text2">400 &#8381;
-                    </span></div>
-                <div class="rectangles__item3"><img class="rectangles__item1_img1" src="./assets/images/plita_myte.png"
-                        alt="clean_plita"><span class="rectangles__item1_text1">Мойка варочной плиты</span><img
-                        class="rectangles__item1_img2" src="./assets/images/line.png" alt="line"><span
-                        class="rectangles__item1_text2">400 &#8381;
-                    </span></div>
-                <div class="rectangles__item4"><img class="rectangles__item1_img1"
-                        src="./assets/images/dyhovka_myte.png" alt="clean_dyhovka"><span
-                        class="rectangles__item1_text1">Мойка духовки</span><img class="rectangles__item1_img2"
-                        src="./assets/images/line.png" alt="line"><span class="rectangles__item1_text2">500 &#8381;
-                    </span></div>
-                <div class="rectangles__item5"><img class="rectangles__item1_img1" src="./assets/images/vyt_myte.png"
-                        alt="clean_vyt"><span class="rectangles__item1_text1">Мойка вытяжки</span><img
-                        class="rectangles__item1_img2" src="./assets/images/line.png" alt="line"><span
-                        class="rectangles__item1_text2">500 &#8381;
-                    </span></div>
-                <div class="rectangles__item6"><img class="rectangles__item1_img1" src="./assets/images/balkon_myte.png"
-                        alt="clean_balkon"><span class="rectangles__item1_text1">Убраться на балконе</span><img
-                        class="rectangles__item1_img2" src="./assets/images/line.png" alt="line"><span
-                        class="rectangles__item1_text2">от 1000 &#8381;
-                    </span></div>
-                <div class="rectangles__item7"><img class="rectangles__item1_img1"
-                        src="./assets/images/potolok_myte.png" alt="clean_potolok"><span
-                        class="rectangles__item1_text1">Мойка потолков</span><img class="rectangles__item1_img2"
-                        src="./assets/images/line.png" alt="line"><span class="rectangles__item1_text2">от 35
-                        &#8381;/М&sup2;
-                    </span></div>
-                <div class="rectangles__item8"><img class="rectangles__item1_img1" src="./assets/images/steny_myte.png"
-                        alt="clean_steny"><span class="rectangles__item1_text1">Мойка стен</span><img
-                        class="rectangles__item1_img2" src="./assets/images/line.png" alt="line"><span
-                        class="rectangles__item1_text2">от 50 &#8381;/М&sup2;
-                    </span></div>
-                <div class="rectangles__item9"><img class="rectangles__item1_img1" src="./assets/images/postel_myte.png"
-                        alt="clean_postel"><span class="rectangles__item1_text1">Поменяем постельное</span><img
-                        class="rectangles__item1_img2" src="./assets/images/line.png" alt="line"><span
-                        class="rectangles__item1_text2">200 &#8381;
-                    </span></div>
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/holodilnik_myte.png" alt="clean_holodilnik">
+                    <h5 class="rectangles__item-text">Мойка холодильника</h5>
+                    <p class="rectangles__item-price"> ━ 600 &#8381;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/microwave_myte.png" alt="clean_microwave">
+                    <h5 class="rectangles__item-text">Мойка микроволновки</h5>
+                    <p class="rectangles__item-price"> ━ 400 &#8381;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/plita_myte.png" alt="clean_plita">
+                    <h5 class="rectangles__item-text">Мойка варочной плиты</h5>
+                    <p class="rectangles__item-price"> ━ 400 &#8381;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/dyhovka_myte.png" alt="clean_dyhovka">
+                    <h5 class="rectangles__item-text">Мойка духовки</h5>
+                    <p class="rectangles__item-price"> ━ 500 &#8381;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/vyt_myte.png" alt="clean_vyt">
+                    <h5 class="rectangles__item-text">Мойка вытяжки</h5>
+                    <p class="rectangles__item-price"> ━ 500 &#8381;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/balkon_myte.png" alt="clean_balkon">
+                    <h5 class="rectangles__item-text">Убраться на балконе</h5>
+                    <p class="rectangles__item-price"> ━ от 1000 &#8381;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/potolok_myte.png" alt="clean_potolok">
+                    <h5 class="rectangles__item-text">Мойка потолков</h5>
+                    <p class="rectangles__item-price"> ━ от 35 &#8381;/М&sup2;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/steny_myte.png" alt="clean_steny">
+                    <h5 class="rectangles__item-text">Мойка стен</h5>
+                    <p class="rectangles__item-price"> ━ от 50 &#8381;/М&sup2;</p>
+                </div>
+
+                <div class="rectangles__item">
+                    <img class="rectangles__item-img" src="./assets/images/postel_myte.png" alt="clean_postel">
+                    <h5 class="rectangles__item-text">Поменяем постельное</h5>
+                    <p class="rectangles__item-price"> ━ 200 &#8381;</p>
+                </div>
             </article>
-            <article class="bonus"><a name="bonuses-3plus1"></a>
-                <div class="bonus__tittle">Закажите 3 дополнительные услуги <div class="bonus__tittle_blue">и получите
-                        четвёртую в подарок </div><button class="bonus__btn">Заказать уборку </button></div>
+
+            <article class="bonus">
+                <h2 class="bonus__tittle"> Закажите 3 дополнительные услуги</h2>
+                <h3 class="bonus__tittle-blue"> и получите четвёртую в подарок</h3>
+                <button class="bonus__btn"> Заказать уборку </button>
             </article>
         </section>
+
         <section>
             <div class="price">
                 <h2 class="price__title">Хотите прицениться? <br>Получите актуальный прайс-лист <br>услуг всего в 1 клик
@@ -213,19 +217,37 @@ d-services"><button class="add-services__btn">Не нашли нужный ва�
                     class="price__pdf-icon" src="./assets/images/PDF_icon.png" alt="PDF_icon">
             </div>
         </section>
-        <section><a name="howework"></a>
-            <h2 class="hard-clean"><span class="hard-clean__title">Исполним уборку любой сложности</span><span
-                    class="hard-clean__small-title">Посмотрите как преображается квартира,
-                    <br>даже в самых сложных ситуациях</span></h2>
-            <div class="hard-clean__main"><img class="hard-clean__left" src="./assets/images/left.png" alt="left"><img
-                    class="hard-clean__right" src="./assets/images/right.png" alt="right"><img class="hard-clean__img"
-                    src="./assets/images/3-posle 1.png" alt="posle">
-                <h3 class="hard-clean__text_title">Объект: однокомнатная квартира</h3>
-                <div class="hard-clean__text"><span class="hard-clean__text1">Пакет: Генеральная
-                        уборка</span><span>Площадь: 32 м2</span><span>Сложные загрязнения: ржавчина,
-                        сильный <br>налёт на ванне</span><span>Время работы: 4 часа</span><span>Бригада: 1
-                        человека</span></div>
+        <section>
+            <h2 class="hard-clean">
+                <span class="hard-clean__title">Исполним уборку любой сложности</span>
+                <span class="hard-clean__subtitle">Посмотрите как преображается квартира, <br>даже в самых сложных
+                    ситуациях</span>
+            </h2>
+            <div class="hard-clean__main">
+                <img class="hard-clean__left" src="./assets/images/left.png" alt="left">
+                <img class="hard-clean__right" src="./assets/images/right.png" alt="right">
+
+                <div class="hard-clean__container">
+                    <img class="hard-clean__img" src="./assets/images/3-posle 1.png" alt="posle">
+                    <h3 class="hard-clean__text-title">Объект: однокомнатная квартира</h3>
+                    <div class="hard-clean__text">
+                        <span class="hard-clean__text-main"><span class="hard-clean__text-grey">Пакет:</span>
+                            Генеральная уборка</span>
+                        <span class="hard-clean__text-main"><span class="hard-clean__text-grey">Площадь:</span> 32
+                            м2</span>
+                        <span class="hard-clean__text-main"><span class="hard-clean__text-grey">Сложные загрязнения:
+                            </span>ржавчина, сильный <br>налёт на ванне</span>
+                        <span class="hard-clean__text-main"><span class="hard-clean__text-grey">Время работы:</span> 4
+                            часа</span>
+                        <span class="hard-clean__text-main"><span class="hard-clean__text-grey">Бригада:</span> 1
+                            человека</span>
+                    </div>
+                    <button class="hard-clean__btn">Стоимость: 3 456 ₽</button>
+                </div>
             </div>
+
+            </div>
+
         </section>
         <section class="competitors">
             <div class="container">
@@ -434,18 +456,20 @@ d-services"><button class="add-services__btn">Не нашли нужный ва�
                 </div>
             </div>
         </section>
-        <div class="certificates">
-            <h2 class="certificates__title">Сертификаты</h2>
-            <p class="certificates__text">Моющие средства от проверенных производителей </p>
-            <section class="certificates__card"><img src="./assets/images/sret6.svg" alt="certificate"
-                    class="certificates__img"><img src="./assets/images/sret1.svg" alt="certificate"
-                    class="certificates__img" /><img src="./assets/images/sert2.svg" alt="certificate"
-                    class="certificates__img" /></section>
-        </div>
+        <section>
+            <div class="certificates">
+                <h2 class="certificates__title">Сертификаты</h2>
+                <p class="certificates__text">Моющие средства от проверенных производителей </p>
+                <section class="certificates__card"><img src="./assets/images/sret6.svg" alt="certificate"
+                        class="certificates__img"><img src="./assets/images/sret1.svg" alt="certificate"
+                        class="certificates__img" /><img src="./assets/images/sert2.svg" alt="certificate"
+                        class="certificates__img" /></section>
+            </div>
+        </section>
         <section class="formpart">
             <div class="formpart__content">
-                <p class="formpart__title">Закажите уборку прямо <br />сейчас ! Выезд персонала <br />в течении
-                    часа </p><input type="button" value="ЗАКАЗАТЬ УБОРКУ" class="formpart__button" />
+                <p class="formpart__title">Закажите уборку прямо <br />сейчас ! Выезд персонала <br />в течении часа
+                </p><input type="button" value="ЗАКАЗАТЬ УБОРКУ" class="formpart__button" />
                 <p class="formpart__text">Или свяжитесь с нами напрямую:</p><button class="formpart__telegram"><img
                         src="./assets/images/Telegram.svg" alt="Telegram" /></button><button
                     class="formpart__whatsapp"><img src="./assets/images/Whatsapp.svg" alt="Whatsapp" /></button>
@@ -455,109 +479,100 @@ d-services"><button class="add-services__btn">Не нашли нужный ва�
                 </div>
             </div>
         </section>
-        < !-- Questions part -->
-            <section class="questions">
-                <h2 class="questions__title">Часто задаваемые вопросы</h2>
-                <div class="container">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header border-light" id="headingOne">
-                                <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                                    <p class="mb-0 questions__question">Что нужно,
-                                        чтобы подготовиться к уборке? </p><button class="btn btn-link collapsed"
-                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                                        aria-controls="collapseOne"><img src="./assets/images/down.svg" alt="open"
-                                            class="questions__icon" /></button>
-                                </h5>
-                            </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                data-parent="#accordion">
-                                <div class="card-body">Текст</div>
-                            </div>
+        <section class="questions">
+            <h2 class="questions__title">Часто задаваемые вопросы</h2>
+            <div class="container">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header border-light" id="headingOne">
+                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                                <p class="mb-0 questions__question">Что нужно,
+                                    чтобы подготовиться к уборке? </p><button class="btn btn-link collapsed"
+                                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne"><img src="./assets/images/down.svg" alt="open"
+                                        class="questions__icon" /></button>
+                            </h5>
                         </div>
-                        <div class="card">
-                            <div class="card-header border-light" id="headingTwo">
-                                <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                                    <p class="mb-0 questions__question">Могу ли я быть дома во время уборки?
-                                    </p><button class="btn btn-link collapsed" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo"><img src="./assets/images/down.svg" alt="open"
-                                            class="questions__icon" /></button>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordion">
-                                <div class="card-body">Текст</div>
-                            </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">Текст</div>
                         </div>
-                        <div class="card">
-                            <div class="card-header border-light" id="headingThree">
-                                <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                                    <p class="mb-0 questions__question">Сколько времени длится уборка? </p>
-                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree"><img src="./assets/images/down.svg" alt="open"
-                                            class="questions__icon" /></button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordion">
-                                <div class="card-body">Текст</div>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header border-light" id="headingTwo">
+                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                                <p class="mb-0 questions__question">Могу ли я быть дома во время уборки? </p><button
+                                    class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo"><img
+                                        src="./assets/images/down.svg" alt="open" class="questions__icon" /></button>
+                            </h5>
                         </div>
-                        <div class="card">
-                            <div class="card-header border-light" id="headingFour">
-                                <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                                    <p class="mb-0 questions__question">За сколько дней до приезда клинеров
-                                        необходимо сделать заказ? </p><button class="btn btn-link collapsed"
-                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour"><img src="./assets/images/down.svg" alt="open"
-                                            class="questions__icon" /></button>
-                                </h5>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordion">
-                                <div class="card-body">Текст</div>
-                            </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">Текст</div>
                         </div>
-                        <div class="card">
-                            <div class="card-header border-light" id="headingFive">
-                                <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                                    <p class="mb-0 questions__question">Какие моющие средства вы используете?
-                                    </p><button class="btn btn-link collapsed" data-toggle="collapse"
-                                        data-target="#collapseFive" aria-expanded="false"
-                                        aria-controls="collapseFive"><img src="./assets/images/down.svg" alt="open"
-                                            class="questions__icon" /></button>
-                                </h5>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                data-parent="#accordion">
-                                <div class="card-body">Текст</div>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header border-light" id="headingThree">
+                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                                <p class="mb-0 questions__question">Сколько времени длится уборка? </p><button
+                                    class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree"><img
+                                        src="./assets/images/down.svg" alt="open" class="questions__icon" /></button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">Текст</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header border-light" id="headingFour">
+                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                                <p class="mb-0 questions__question">За сколько дней до приезда клинеров необходимо
+                                    сделать заказ? </p><button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><img
+                                        src="./assets/images/down.svg" alt="open" class="questions__icon" /></button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">Текст</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header border-light" id="headingFive">
+                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                                <p class="mb-0 questions__question">Какие моющие средства вы используете? </p>
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><img
+                                        src="./assets/images/down.svg" alt="open" class="questions__icon" /></button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">Текст</div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <footer class="footer">
-                <div class="footer__logo"><img src="./assets/images/logo1.svg" alt="logo" class="footer__img" />
-                    <div class="footer__title">
-                        <p class="footer__title_big">Soft Clean</p>
-                        <p class="footer__title_small">Бережная уборка <br />помещений СПБ</p>
-                    </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__logo"><img src="./assets/images/logo.png" alt="logo" class="footer__img" />
+                <div class="footer__title">
+                    <p class="footer__title_big">Soft Clean</p>
+                    <p class="footer__title_small">Бережная уборка <br />помещений СПБ</p>
                 </div>
-                <div class="footer__options">Реквизиты</div>
-                <div class="footer__options">Политика конфиденциальности</div>
-                <div class="footer__options">Быстрая связь: <button class="footer__button"><img
-                            src="./assets/images/Telegram.svg" alt="Telegram" /></button><button
-                        class="footer__button"><img src="./assets/images/Whatsapp.svg" alt="Whatsapp" /></button></div>
-                <div class="footer__options">Разработка сайта: Halekov Design</div>
-            </footer>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-                crossorigin="anonymous"></script>
+            </div>
+            <div class="footer__options">Реквизиты</div>
+            <div class="footer__options">Политика конфиденциальности</div>
+            <div class="footer__options">Быстрая связь: <button class="footer__button"><img
+                        src="./assets/images/Telegram.svg" alt="Telegram" /></button><button class="footer__button"><img
+                        src="./assets/images/whatsup.png" alt="Whatsapp" /></button></div>
+            <div class="footer__options">Разработка сайта: Halekov Design</div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
     </main>
 </body>
 
