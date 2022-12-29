@@ -96,6 +96,12 @@ img {
     color: #959A9D;
 }
 
+.telegram,
+.whatsapp {
+    cursor: pointer;
+    transition: .4s;
+}
+
 .header__content {
     display: flex;
     gap: 48px;
