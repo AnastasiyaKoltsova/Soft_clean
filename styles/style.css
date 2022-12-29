@@ -642,6 +642,7 @@ img {
 
 #card-radius {
     border-radius: 30px;
+    padding: 0;
 }
 
 .competitors {
