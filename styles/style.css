@@ -713,7 +713,7 @@ img {
     font-weight: 600;
     color: #959A9D;
 }
-span {
+.competitors span, .professional span, .cleaning span {
     font-weight: bold;
 }
 .competitors-cards .warning {
