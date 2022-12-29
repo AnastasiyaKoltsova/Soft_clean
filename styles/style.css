@@ -176,6 +176,11 @@ img {
     font-size: 12px;
 }
 
+.telegram,
+.whatsapp {
+    cursor: pointer;
+}
+
 /* promo */
 .promo {
     background: url('../assets/images/background.png');
@@ -1168,6 +1173,7 @@ img {
     background-color: transparent;
     color: #43AAFF;
     border-radius: 99em;
+    border: 1px solid #43AAFF;
     font-size: 14px;
     text-align: center;
     font-weight: 800;
@@ -1223,13 +1229,16 @@ img {
 }
 
 .inventory__items {
-    height: 687px;
     display: grid;
-    /* grid-template-columns: 1fr 600px 1fr; */
+    grid-template-columns: 1fr 600px 1fr;
     grid-template-areas:
         "item1 item2 item3"
         "item4 item2 item5";
     align-items: center;
+}
+
+.inventory__img {
+    object-fit: cover;
 }
 
 .inventory__items__box {
