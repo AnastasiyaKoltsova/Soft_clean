@@ -603,7 +603,6 @@ img {
 }
 
 /* Anjela start */
-/* Anjela start */
 .card-title,
 .staff__text_title {
     font-size: 1em;
@@ -654,6 +653,7 @@ img {
 #card-radius {
     border-radius: 30px;
 }
+
 .competitors {
     margin-top: 50px;
 }
@@ -688,6 +688,7 @@ img {
     color: #959A9D;
 }
 /* span {
+.competitors span, .professional span, .cleaning span {
     font-weight: bold;
 } */
 .competitors-cards .warning {
