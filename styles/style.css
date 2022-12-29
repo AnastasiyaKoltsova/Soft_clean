@@ -325,7 +325,7 @@ img {
 .adv {
     display: flex;
     /* position: relative; */
-    width: 22%;
+    width: 23%;
     height: 150px;
     margin-top: 96px;
     border-radius: 30px;
@@ -342,7 +342,8 @@ img {
 }
 
 .adv-img,
-.container-bonus__image-right {
+.container-bonus__bonus-info__img
+{
     /* float: right; */
     margin: 0px 0px 0px 15px;
     border-radius: 0 0 30px 0;
@@ -353,7 +354,6 @@ img {
     font-size: 14px;
     line-height: 140%;
     color: #FFFFFF;
-    /* position: absolute; */
     margin-left: 25px;
     margin-top: 40px;
 }
@@ -572,8 +572,12 @@ img {
 .checkbox-text_white a {
     color: #FFFFFF;
 }
-
 .calculator__form__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.calculator__right {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -595,43 +599,30 @@ img {
 
 .calculator__bonus__title {
     display: block;
-    width: 183px;
-    height: 24px;
-    margin-top: 26px;
     margin-left: 29px;
-    margin-bottom: 0;
+    margin-top: 10px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 150%;
     color: #43AAFF;
 }
 
 .calculator__bonus__list {
     display: block;
-    width: 259px;
-    height: 42px;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
     font-weight: 500;
-    line-height: 150%;
     color: #4B5258;
 }
-
 .calculator__bonus__description {
     display: block;
-    width: 129px;
-    height: 15px;
     margin-top: 0;
     margin-left: 44px;
     font-weight: 500;
     font-size: 10px;
-    line-height: 150%;
     color: #959A9D;
 }
 
 .calculator__bonus__img {
-    width: 165px;
-    height: 135px;
     margin: 0px -55px 0px 0;
     overflow: hidden;
     border-bottom-left-radius: 30px;
@@ -645,7 +636,6 @@ img {
     line-height: 25px;
     font-weight: 800;
 }
-
 .card-text,
 .staff__text_main,
 .card-text__link {
@@ -653,7 +643,6 @@ img {
     color: #4B5258;
     line-height: 18px;
 }
-
 .competitors-cards,
 .professional-cards {
     display: grid;
@@ -665,7 +654,6 @@ img {
     margin: 0 auto;
     margin-top: 50px;
 }
-
 .staff {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -673,58 +661,51 @@ img {
     border-radius: 30px;
     box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.13);
 }
-
 .staff_img {
     align-items: stretch;
     padding-bottom: 0;
     margin-bottom: 0;
 }
-
 .staff-card {
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     gap: 20px;
     align-items: center;
 }
-
 .card {
-    border-radius: 20px;
     padding: 0;
     box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.13);
+}
+#card-radius {
+    border-radius: 30px;
 }
 
 .competitors {
     margin-top: 50px;
 }
-
 .competitors__text {
-    width: 46vw;
+    max-width: 894px;
     margin: 0 auto;
 }
-
 .competitors__text p {
     margin: 10px;
 }
-
 .competitors__text_title {
     display: inline;
     background-color: rgb(255, 194, 77);
 }
-
 .text-title {
     padding: 10px 30px 10px 30px;
-    border-radius: 20px;
+    border-radius: 30px;
     color: #FFFFFF;
     font-size: 22px;
     line-height: 33px;
 }
-
 .text-main {
     font-size: 30px;
     color: #4B5258;
     line-height: 45px;
 }
-
 .competitors__text_fact,
 .cleaning__text_fact {
     font-size: 22px;
@@ -732,43 +713,35 @@ img {
     font-weight: 600;
     color: #959A9D;
 }
-
-span {
+.competitors span, .professional span, .cleaning span {
     font-weight: bold;
 }
-
-.warning {
+.competitors-cards .warning {
     background-color: rgb(67, 170, 255);
 }
-
 .warning__text {
     color: #FFFFFF;
     padding: 0;
 }
-
 .warning__text_title {
     font-size: 13px;
     line-height: 18px;
     font-weight: 800;
 }
-
 .warning__link,
 .warning__text_main {
     font-size: 11px;
     line-height: 17px;
     font-weight: 600;
 }
-
 .professional {
     margin-top: 100px;
 }
-
 .professional__text_fact {
     background-color: rgb(255, 194, 77);
     display: inline-block;
     border-radius: 40px;
 }
-
 .request {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -780,7 +753,6 @@ span {
     background-image: url(../assets/images/girl-2.png);
     background-size: cover;
 }
-
 .request__title {
     font-size: 20px;
     line-height: 28px;
@@ -789,31 +761,26 @@ span {
     padding-top: 40px;
     padding-left: 60px;
 }
-
 .request__phone {
     display: inline;
     padding: 20px;
     border-radius: 30px;
     border: 0;
 }
-
 .request__form {
     margin-bottom: 30px;
     margin-top: 10px;
     padding-left: 60px;
 }
-
 .request__politics p {
     margin-bottom: 0;
 }
-
 .checkbox-text {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 11px;
     margin-top: 10px;
 }
-
 .button {
     display: inline;
     background-color: rgb(255, 194, 77);
@@ -825,34 +792,28 @@ span {
     color: white;
     cursor: pointer;
 }
-
 .cleaning {
     margin-top: 200px;
 }
-
-.cleaning .cleaning__text_main {
+.cleaning .cleaning__text {
     font-size: 30px;
     line-height: 45px;
     font-weight: 600;
     color: #4B5258;
     margin-bottom: 0;
 }
-
 .cleaning__text_main span {
     color: #43AAFF;
 }
-
 .cleaning__card-title {
     font-size: 16px;
     line-height: 22px;
     font-weight: 800;
 }
-
 .cleaning__img {
     height: 95px;
     width: 95px;
 }
-
 .cleaning-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -864,45 +825,35 @@ span {
     margin-top: 50px;
     margin-bottom: 120px;
 }
-
 .card-text span {
     color: #43AAFF;
 }
-
 .card-text__size {
     border-radius: 30px;
     padding: 0;
     border: 1px solid #43AAFF;
     max-width: 150px;
-    padding: 15px 10px 15px 10px;
+    padding: 15px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
-
 .card-text__link {
     margin-top: 10px;
 }
-
-.btn-primary {
+#btn-primary {
     font-size: 10px;
     line-height: 15px;
     color: #FFFFFF;
     background-color: #43AAFF;
-    padding: 15px 10px 15px 10px;
+    padding: 15px;
     border-radius: 30px;
     border: 0;
 }
-
 .card-link {
     color: #43AAFF;
 }
-
 .general {
     padding-top: 35px;
-}
-
-.blank {
-    width: 35%;
 }
 
 .rectangles {
@@ -1334,7 +1285,7 @@ span {
     height: 487px;
 }
 
-.formpart__content img {
+.formpart__content button img {
     width: 25%;
 }
 
@@ -1505,6 +1456,10 @@ section.questions .container {
     font-weight: 600;
     font-size: 12px;
     line-height: 140%;
+    color: #4B5258;
+}
+
+.footer__options a {
     color: #4B5258;
 }
 
